@@ -1,0 +1,19 @@
+.history-list{
+    margin: 0 auto;
+    width:450px;
+    margin: 20px;
+    padding: 100px;
+}
+
+ul li {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+}
+
+ul li::before {
+    content: '*';
+    position: absolute;
+    top: 6px;
+    left: 0;
+}

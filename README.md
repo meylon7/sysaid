@@ -1,6 +1,6 @@
 # Calculator Application
 implemented in React with javascript
-using redux for state management
+using redux (toolkit) for state management
 react-router for routing
 
 ## Pages
@@ -20,13 +20,7 @@ useLoginFormValidator - for chalking form fields (using utils - validators)
 useLocalStorage - for holding username between pages
 
 ## 3rd party libs
-craco - Create React App Configuration Override is an easy and comprehensible configuration layer for create-react-app.
-without using 'eject' by adding a single configuration (e.g. craco.config.js) file at the root of your application 
-and customize your eslint, babel, postcss configurations and many more.
-"start": "craco start",
 
 clsx - utility for constructing className strings conditionally.
 Also serves as a faster & smaller drop-in replacement for the classnames module.
 clsx('foo', [1 && 'bar', { baz:false, bat:null }, ['hello', ['world']]], 'cya');
-
-tailwindcss - for the design 
